@@ -16,7 +16,7 @@ btn.addEventListener("click", async (e) => {
   const html = `<div>
   <h4>Word : ${data[0].word}</h4>
   <p>Part of speech : ${data[0].meanings[0].partOfSpeech}</p>
-  <p>Synosnyms : ${data[0].meanings[0].definitions[0].definition}</p>
+  <p>Definition : ${data[0].meanings[0].definitions[0].definition}</p>
   </div>`;
 
   document.querySelector(".display").innerHTML = html;
