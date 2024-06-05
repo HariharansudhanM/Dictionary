@@ -1,0 +1,26 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: rgba(213, 50, 168, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.9px);
+  -webkit-backdrop-filter: blur(1.9px);
+  border: 1px solid rgba(213, 50, 168, 0.29);
+}
+
+.display {
+  position: relative;
+  left: 20px;
+  width: 15rem;
+}
+
+.back {
+  background: rgba(232, 30, 89, 0.93);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(232, 30, 89, 0.65);
+}
